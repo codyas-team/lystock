@@ -2,3 +2,8 @@
   --tw-bg-opacity: 1;
   background-color: rgb(00 63 136 / var(--tw-bg-opacity)) !important;
 }
+
+.bg-green-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(00 41 107 / var(--tw-bg-opacity)) !important;
+}
