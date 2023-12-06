@@ -7,3 +7,8 @@
   --tw-bg-opacity: 1;
   background-color: rgb(00 41 107 / var(--tw-bg-opacity)) !important;
 }
+
+.hover\:bg-green-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(00 41 107 / var(--tw-bg-opacity)) !important;
+}
