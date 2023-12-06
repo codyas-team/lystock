@@ -32,6 +32,9 @@
     <link rel="stylesheet" href="{{ asset('public/css/element.css?v=' . version('short')) }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('public/css/app.css?v=' . version('short')) }}" type="text/css">
 
+    <!-- lyStock Css -->
+    <link rel="stylesheet" href="{{ asset('public/css/lystock.css?v=' . version('short')) }}" type="text/css">
+
     @stack('css')
 
     @stack('stylesheet')

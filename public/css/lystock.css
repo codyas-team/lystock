@@ -1,0 +1,4 @@
+.bg-green{
+  --tw-bg-opacity: 1;
+  background-color: rgb(00 63 136 / var(--tw-bg-opacity)) !important;
+}
