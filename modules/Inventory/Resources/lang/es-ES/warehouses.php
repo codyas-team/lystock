@@ -2,6 +2,10 @@
 
 return [
     'main_warehouse'            => 'Almacén principal',
-    'default'                   => 'Modo de juego por defecto',
+    'default'                   => 'Almacén predeterminado',
     'default_warehouse_delete'  => 'No se puede eliminar el recurso compartido predeterminado',
+    'country'                   => 'País',
+    'city'                      => 'Cuidad',
+    'total_item'                => 'Artículo total',
+    'role_management'           => 'Gestión de roles',
 ];

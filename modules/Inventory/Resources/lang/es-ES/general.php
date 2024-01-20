@@ -8,10 +8,10 @@ return [
     'inventories'               => 'Inventory|Inventories',
     'variants'                  => 'Variante|Variantes',
     'manufacturers'             => 'Manufacturer|Manufacturers',
-    'transfer_orders'           => 'Transfer Order|Transfer Orders',
-    'adjustments'               => 'Adjustment|Adjustments',
+    'transfer_orders'           => 'Orden de transferencia|Órdenes de transferencia',
+    'adjustments'               => 'Ajuste|Ajustes',
     'warehouses'                => 'Almacén|Almacenes',
-    'histories'                 => 'History|Histories',
+    'histories'                 => 'Historia|Historias',
     'item_groups'               => 'Grupo|Grupos',
     'barcode'                   => 'Código de barras',
     'print_barcode'             => 'Print Barcode',
@@ -23,7 +23,7 @@ return [
     'default'                   => 'Por defecto',
     'stock'                     => 'Existencia',
     'information'               => 'Information',
-    'default_warehouse'         => 'Default Warehouse',
+    'default_warehouse'         => 'Almacén predeterminado',
     'track_inventory'           => 'Seguimiento del inventario',
     'negative_stock'            => 'Negative Stock',
     'expented_income'           => 'Expented Income',
@@ -52,8 +52,8 @@ return [
         'variants'               => 'Variants',
         'manufacturers'         => 'Manufacturer',
         'warehouses'            => 'Almacenes',
-        'histories'             => 'Histories',
-        'reports'               => 'Reports',
+        'histories'             => 'Historias',
+        'reports'               => 'Reportes',
     ],
 
     'notifications' => [
@@ -66,20 +66,19 @@ return [
 
     'empty' => [
         'items'                 => 'Los artículos pueden ser productos o servicios. Puede utilizar elementos al crear facturas y facturas.',
-        'adjustments'           => "Because of some reasons such as damaged items and stolen items etc.,
-                                    your company's real stocks and recorded stocks may not be equal.
-                                    Inventory adjustment provides you to record missing items.",
+        'adjustments'           => "Debido a algunas razones, como artículos dañados y artículos robados, etc.,
+                                    Las acciones reales de su empresa y las acciones registradas pueden no ser iguales.
+                                    El ajuste de inventario le permite registrar los artículos faltantes.",
         'warehouses'            => 'You can add manage multiple warehouses.
                                     You can also track stock control of all your items by warehouses.
                                     Warehouse Overview and History give you insight into warehouses operations.',
-        'transfer-orders'       => 'Transfer Order allows you to keep track of item movement from one warehouse to another.',
+        'transfer-orders'       => 'Orden de transferencia le permite realizar un seguimiento del movimiento de artículos de un almacén a otro.',
         'variants'              => 'Puede agregar y administrar variantes que describan mejor sus artículos en la sección Variantes.
                                     Puedes crear un grupo de artículos que tengan las mismas variantes como color, talla, etc.',
         'item-groups'           => 'En la sección Grupos, puede administrar los artículos que pueden considerarse bajo el mismo grupo. Puede seleccionar variantes, agregar nuevos artículos y administrar sus detalles desde grupos.',
-        'histories'             => "You have not recorded any inventory actions yet. Your business' all inventory activities
-                                    will be recorded here. You start using the inventory app by creating an item. ",
+        'histories'             => "Aún no has registrado ninguna acción de inventario. Todas las actividades de inventario de su empresa se registrarán aquí. Comienzas a usar la aplicación de inventario creando un artículo. ",
         'title' => [
-            'adjustments'       => 'Adjustment',
+            'adjustments'       => 'Ajuste',
             'warehouses'        => 'Almacenes',
             'transfer-orders'   => 'Transfer Orders',
             'variants'          => 'Variantes',

@@ -22,7 +22,7 @@ return [
             ])),
             'default_unit'                  => env('SETTING_FALLBACK_INVENTORY_DEFAULT_UNIT', 'Unidades'),
             'reasons'                       => env('SETTING_FALLBACK_INVENTORY_REASONS', json_encode([
-                'Stock on fire', 'Stolen Items', 'Damaged Items', 'Others'
+                'Stock on fire', 'Artículos robados', 'Artículos dañados', 'Otros'
             ])),
         ],
     ],
