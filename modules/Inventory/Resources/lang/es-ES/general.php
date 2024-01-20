@@ -73,8 +73,8 @@ return [
                                     You can also track stock control of all your items by warehouses.
                                     Warehouse Overview and History give you insight into warehouses operations.',
         'transfer-orders'       => 'Transfer Order allows you to keep track of item movement from one warehouse to another.',
-        'variants'              => 'You can add and manage variants that describe your items better in the Variants section.
-                                    You can create a group of items that have the same variants such as color, size, etc.',
+        'variants'              => 'Puede agregar y administrar variantes que describan mejor sus artículos en la sección Variantes.
+                                    Puedes crear un grupo de artículos que tengan las mismas variantes como color, talla, etc.',
         'item-groups'           => 'En la sección Grupos, puede administrar los artículos que pueden considerarse bajo el mismo grupo. Puede seleccionar variantes, agregar nuevos artículos y administrar sus detalles desde grupos.',
         'histories'             => "You have not recorded any inventory actions yet. Your business' all inventory activities
                                     will be recorded here. You start using the inventory app by creating an item. ",
