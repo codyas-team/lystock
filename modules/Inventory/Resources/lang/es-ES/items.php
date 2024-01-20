@@ -14,7 +14,7 @@ return [
     'low_stock'                     => 'Low Stock',
     'created_item'                  => 'Created Item',
     'returnable'                    => 'Returnable',
-    'general_information'           => 'General Information',
+    'general_information'           => 'Información General',
     'can_not_be_negative'           => 'Can not be negative',
 
     'unit' => [
