@@ -95,3 +95,7 @@ modules/*
 !modules/.gitkeep
 .laravelstatsrc
 .DS_Store
+
+package-lock.json
+yarn.lock
+.env.example
