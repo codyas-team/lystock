@@ -214,19 +214,20 @@
                     @endif
                 @stack('issued_at_input_end')
 
-                @stack('due_at_input_start')
-                    @if (! $hideDueAt)
-                        <p class="mb-0">
-                            <span class="font-semibold spacing">
-                                {{ trans($textDueAt) }}:
-                            </span>
+{{--                Ocultando el campo Fecha de Vencimiento de la Factura PDF--}}
+{{--                @stack('due_at_input_start')--}}
+{{--                    @if (! $hideDueAt)--}}
+{{--                        <p class="mb-0">--}}
+{{--                            <span class="font-semibold spacing">--}}
+{{--                                {{ trans($textDueAt) }}:--}}
+{{--                            </span>--}}
 
-                            <span class="float-right spacing">
-                                @date($document->due_at)
-                            </span>
-                        </p>
-                    @endif
-                @stack('due_at_input_end')
+{{--                            <span class="float-right spacing">--}}
+{{--                                @date($document->due_at)--}}
+{{--                            </span>--}}
+{{--                        </p>--}}
+{{--                    @endif--}}
+{{--                @stack('due_at_input_end')--}}
 
                 @foreach ($document->totals_sorted as $total)
                     @if ($total->code == 'total')
