@@ -312,7 +312,14 @@
                         {!! nl2br($document->notes) !!}
                     @endif
                 @stack('notes_input_end')
+
             </div>
+            <div class="text p-index-left break-words">
+                <p class="font-extrabold">
+                    {{ trans('invoices.currency') . $document->currency_code }}
+                </p>
+            </div>
+
         </div>
 
         <div class="col-40 float-right text-right">

@@ -12,6 +12,7 @@ return [
     'cancel_date'           => 'Fecha de cancelación',
 
     'quantity'              => 'Cantidad',
+    'currency'              => 'Valores dados en: ',
     'price'                 => 'Precio',
     'sub_total'             => 'Subtotal',
     'discount'              => 'Descuento',
